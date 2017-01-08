@@ -26,7 +26,7 @@ SECRET_KEY = '4grfmmsar@85$s0g1b^r8&!f#+$(*9pmquuqab=kwl$4-06k)='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['stormy-citadel-32653.herokuapp.com',]
 
 
 # Application definition
