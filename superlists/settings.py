@@ -76,10 +76,11 @@ WSGI_APPLICATION = 'superlists.wsgi.application'
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # },
+    'default': dj_database_url.config(default='postgres://yaeqcqycgjzwlj:5af87d079bec8aef60423b3e17c2737aaaf4eb4a3120c4dce28e8928ce6cf990@ec2-54-235-240-92.compute-1.amazonaws.com:5432/d26jfkb17sosvu')
 }
 
 
