@@ -1,0 +1,4 @@
+dj-database-url==0.4.2
+Django==1.10.5
+gunicorn==19.6.0
+selenium==2.53.6
